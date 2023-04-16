@@ -10,3 +10,17 @@
 # число – это масса соответствующего арбуза
 # Input: 5 -> 5 1 6 5 9
 # Output: 1 9
+import random
+
+n = int(input("Введите количество арбузов: "))
+max = 0
+min = 11
+for i in range(n):
+    i = random.randint(1, 10)
+    print(i)
+    if i > max:
+        max = i
+    if i <= min:
+        min = i
+           
+print(min, max)

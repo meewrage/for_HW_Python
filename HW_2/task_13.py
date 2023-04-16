@@ -17,7 +17,7 @@
 # Input: 6 -> -20 30 -40 10 50 -10
 # Output: 2
 import random
-n = 5
+n = int(input("Введите количество дней: "))
 count = 0
 max_count = 0
 for i in range(n):
